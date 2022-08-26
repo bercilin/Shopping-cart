@@ -1,0 +1,135 @@
+
+
+
+/* Changing default styles of the browser */
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+i {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/* Navbar Styles are here */
+
+
+
+
+
+
+
+
+
+.navbar{
+  background-color: black;
+}
+
+.nav-link{
+  color:white ;
+  font-size: 30px;
+  transition: .5s;
+  position: relative;
+  
+  
+}
+.navbar-toggler{
+  color: white;
+  font-size: 27px;
+  transition: .5s;
+}
+
+
+/* .cart {
+  position: relative;
+  color:white ;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+  transition: .5s;
+} */
+
+
+.cartAmount {
+  position:absolute;
+  top: -7px;
+  right: 2px;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.nav-link .navbar-toggler:hover{
+  color: blue;
+}
+
+
+
+
+img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* Quantity and buttons are here */
+
+
+
+
+
+
+
+.price-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.bi-dash-lg {
+  color: red;
+}
+
+.bi-plus-lg {
+  color: green;
+}
+
+
+/* Cart remove button */
+
+
+.bi-x-lg {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top:5px;
+  right: 25px;
+}
